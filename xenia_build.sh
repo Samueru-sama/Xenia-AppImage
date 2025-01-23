@@ -8,6 +8,7 @@ ICON="https://github.com/xenia-project/xenia/blob/master/assets/icon/256.png?raw
 
 export APPIMAGE_EXTRACT_AND_RUN=1
 export ARCH="$(uname -m)"
+echo 'test' > ~/version
 
 git clone https://github.com/xenia-canary/xenia-canary.git
 cd ./xenia-canary/
