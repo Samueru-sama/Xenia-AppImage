@@ -89,7 +89,6 @@ jobs:
           echo "$PWD"
           ls .
           find -iname 'Xenia-canary-x86_64.AppImage' -type f | xargs -i -t -exec mv {} dist/
-          echo "latest" > dist/version # Define version dynamically if needed
 
       - name: Check version file
         run: |
