@@ -2,7 +2,7 @@
 
 set -eux
 
-LIB4BN="https://raw.githubusercontent.com/VHSgunzo/sharun/refs/heads/main/lib4bin"
+LIB4BIN="https://raw.githubusercontent.com/VHSgunzo/sharun/refs/heads/main/lib4bin"
 APPIMAGETOOL="https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage"
 
 export APPIMAGE_EXTRACT_AND_RUN=1
@@ -58,7 +58,7 @@ cd ./xenia-canary/
 git submodule update --init --recursive --progress
 
 mkdir lucas/
-wget "$LIB4BN" -O lucas/lib4bin
+wget "$LIB4BIN" -O lucas/lib4bin
 chmod +x lucas/lib4bin
 wget "$APPIMAGETOOL" -O appimagetool
 chmod +x appimagetool
