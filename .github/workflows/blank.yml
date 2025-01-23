@@ -82,7 +82,7 @@ jobs:
             clang-tools-extra
 
       - name: Make AppImage
-      - run: |
+        run: |
           chmod +x ./xenia_build.sh
           ./xenia_build.sh
           mkdir dist
