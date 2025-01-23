@@ -83,7 +83,7 @@ StartupNotify=false' > Xenia-canary.desktop
 
 find ../build/bin/Linux/Release/
 xvfb-run -a -- ./lib4bin -p -v -r -e -s -k \
-	../build/bin/Linux/Release/xenia*
+	../build/bin/Linux/Release/xenia* \
 	/usr/lib/libGLX* \
 	/usr/lib/libstdc++* \
 	/usr/lib/libEGL* \
