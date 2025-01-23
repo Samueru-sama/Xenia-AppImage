@@ -93,5 +93,8 @@ xvfb-run -a -- ./lib4bin -p -v -r -e -s -k \
 	/usr/lib/spa-0.2/*/* \
 	/usr/lib/alsa-lib/*
 
+ln ./sharun ./AppRun
+./sharun -g
+
  cd ..
 ./appimagetool -n lucas/
