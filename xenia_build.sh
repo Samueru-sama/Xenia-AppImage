@@ -20,7 +20,7 @@ pacman -Syu --noconfirm linux-headers \
 	cmake \
 	git \
 	pipewire \
-	pulseuadio \
+	pulseaudio \
 	pulseaudio-alsa \
 	findutils \
 	ninja \
