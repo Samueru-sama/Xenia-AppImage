@@ -9,51 +9,6 @@ ICON="https://github.com/xenia-project/xenia/blob/master/assets/icon/256.png?raw
 export APPIMAGE_EXTRACT_AND_RUN=1
 export ARCH="$(uname -m)"
 
-pacman -Syu --noconfirm linux-headers \
-	binutils \
-	patchelf \
-	findutils \
-	grep \
-	sed \
-	coreutils \
-	strace \
-	llvm \
-	cmake \
-	git \
-	pipewire \
-	pulseaudio \
-	pulseaudio-alsa \
-	findutils \
-	ninja \
-	base-devel \
-	gnupg \
-	lsb-release \
-	python-opencv \
-	wget \
-	lua \
-	gtk3 \
-	lz4 \
-	glew \
-	libx11 \
-	sdl2 \
-	pkgconf \
-	curl \
-	binutils \
-	vulkan-icd-loader \
-	vulkan-radeon \
-	vulkan-intel \
-	vulkan-nouveau \
-	vulkan-tools \
-	vulkan-headers \
-	xcb-util-keysyms \
-	xkeyboard-config \
-	wayland \
-	libxrandr \
-	mesa \
-	libxinerama \
-	libxcursor \
-	clang-tools-extra
-
 git clone https://github.com/xenia-canary/xenia-canary.git
 cd ./xenia-canary/
 git submodule update --init --recursive --progress
